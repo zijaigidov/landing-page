@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
@@ -115,6 +114,30 @@ html {
 .card-text {
   text-align: center;
   margin-top: 8px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  color: #1f2937;
+  background: #e5e7eb;
+  padding: 128px 0;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.author-name {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 64px;
+  font-weight: bold;
+  font-size: 22px;
+  font-style: normal;
 }
 
 .container {
