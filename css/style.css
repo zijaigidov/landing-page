@@ -76,7 +76,7 @@ html {
   background-color: #3882f6;
   font-weight: bold;
   font-family: 'Roboto', Arial, sans-serif;
-  padding: 6px 42px;
+  padding: 8px 48px;
   border: none;
   border-radius: 5px;
   margin-top: 10px;
@@ -157,9 +157,9 @@ html {
 
 .bottom button {
   font-weight: bold;
-  color: inherit;
-  padding: 0 32px;
-  background: inherit;
+  color: #1f2937;
+  padding: 0 48px;
+  background: #f9faf8;
   border: 2px solid #f9faf8;
   border-radius: 8px;
 }
