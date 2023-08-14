@@ -88,26 +88,30 @@ html {
   margin-top: 48px;
 }
 
-.card-container {
+.plan-container {
   display: flex;
   justify-content: center;
   gap: 48px;
   margin: 48px 0;
 }
 
-.card {
-  width: 150px;
-}
-
-.card-image {
-  height: 150px;
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 200px;
   border: 3px solid #187bcd;
   border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1f2937;
 }
 
-.card-text {
-  text-align: center;
-  margin-top: 8px;
+.limited-time {
+  color: red;
 }
 
 .quote {
