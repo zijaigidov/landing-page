@@ -128,7 +128,6 @@ html {
 .author-name {
   display: flex;
   justify-content: flex-end;
-  margin-right: 64px;
   font-weight: bold;
   font-size: 22px;
   font-style: normal;
